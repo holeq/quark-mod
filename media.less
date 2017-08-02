@@ -1,0 +1,215 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media all and (max-width: 1100px) {
+	.site-title a {
+		font-size: 52px;
+		font-size: 3.25rem;
+	}
+	.banner h1 {
+		font-size: 44px;
+		font-size: 2.75rem;
+	}
+	.banner h2 {
+		font-size: 24px;
+		font-size: 1.5rem;
+	}
+}
+
+@media all and (max-width: 980px) {
+    /*
+	.main-navigation {
+		margin: 38px 0 0 0;
+		margin: 2.375rem 0 0 0;
+	}
+	*/
+}
+
+@media all and (max-width: 900px) {
+	#toppanel {
+	    display: none;
+	}
+	#topmenu .logo {
+	    display: inline; //Т.е. минилоготип будет показываться в мобильном варианте страниц.
+	}
+	#topmenu .menu-top-left-container, #topmenu .menu-top-right-container {
+		display: none;
+	}
+	
+	.banner .grid_3_of_12 {
+		width: 48%; 
+	}
+	.banner .grid_6_of_12 {
+		width: 100%; 
+	}
+	.banner h1, .banner h2, .banner p {
+		text-align: center;
+	}
+	
+	.grid-4cols .isotope-item, .grid-5cols .isotope-item,
+	.masonry-4cols .isotope-item, .masonry-5cols .isotope-item {
+	    width: 31%;
+	}
+
+	//Slick Nav menu
+	.js .slicknav_menu {
+		display: block;
+	}
+}
+
+@media all and (max-width: 800px) {
+	header .grid_5_of_12 {
+		width: 100%; 
+	}
+	header .grid_7_of_12 {
+		width: 100%;
+		margin-left: 0;
+	}
+	header .main-navigation {
+		margin-top: 0;
+		float: none;
+	}
+	.main-navigation .nav-menu > li:first-child {
+		margin-left: 0;
+	}
+	.social-media-icons {
+		float: none;
+		text-align: left;
+	}
+	.social-media-icons li {
+		margin: 0.1em 0.5em 0 0;
+	}
+	
+	//Affiliate Egg
+    .affegg-promotion .affegg-discount {
+        font-size: 14px !important;
+    }
+	
+}
+
+@media all and (max-width: 650px) {
+	.grid_1_of_12,
+	.grid_2_of_12,
+	.grid_3_of_12,
+	.grid_4_of_12,
+	.grid_5_of_12,
+	.grid_6_of_12,
+	.grid_7_of_12,
+	.grid_8_of_12,
+	.grid_9_of_12,
+	.grid_10_of_12,
+	.grid_11_of_12,
+	.grid_12_of_12 {
+		width: 100%; 
+	}
+	.col {
+		margin: 0;
+	}
+	
+	.main-small-navigation .nav-menu, .nav-menu ul {
+		padding: 0;
+	}
+	.main-small-navigation .nav-menu ul {
+		padding-left: 16px;
+		padding-left: 1rem;
+	}
+
+	.grid-3cols .isotope-item, .grid-4cols .isotope-item, .grid-5cols .isotope-item,
+	.masonry-3cols .isotope-item, .masonry-4cols .isotope-item, .masonry-5cols .isotope-item {
+	    width: 48%;
+	}
+	
+	//Affiliate Egg
+    .affegg-promotion .affegg-discount {
+        font-size: 14px !important;
+    }
+    
+    //YARP
+    #underpostblock .bo-yarp-template-look .items .item {
+        width: 32%;
+    }
+    aside .bo-yarp-template-look .items .item {
+        width: 32% !important;
+    }
+    aside .bo-yarp-template-look .items .item .item-img img {
+        width: 100% !important;   
+    }
+}
+
+@media all and (max-width: 520px) {
+	.site-title h1 {
+		text-align: center;
+	}
+	.main-small-navigation .nav-menu,
+	.main-small-navigation .nav-menu ul,
+	.nav-menu,
+	.nav-menu ul {
+		padding: 0;
+	}
+	.main-small-navigation,
+	.main-navigation li {
+		width: 100%;
+	}
+	.main-small-navigation {
+		text-align: center;
+	}
+	.main-small-navigation ul li,
+	.main-navigation ul li {
+		background-color: #fff;
+		margin: 5px 0;
+		text-align: center;
+	}
+	.main-navigation ul ul, .main-navigation ul ul li ul {
+		position: relative;
+	}
+	.main-navigation ul ul li ul {
+		left: 0;
+	}
+	.main-navigation ul ul a {
+		color: #fff; /* Nav bar dropdown link color */
+		background-color: #333;  /* Nav bar dropdown background color */
+		width: 100%; /* Nav bar dropdown width */
+	}
+	.social-media-icons {
+		text-align: center;
+	}
+	
+	.grid-2cols .isotope-item, .grid-3cols .isotope-item, .grid-4cols .isotope-item, .grid-5cols .isotope-item,
+	.masonry-2cols .isotope-item, .masonry-3cols .isotope-item, .masonry-4cols .isotope-item, .masonry-5cols .isotope-item {
+	    width: 100%;
+	}
+	
+	//Affiliate Egg
+    .affegg-promotion {
+    	//position: relative !important;
+    	top: 0 !important;
+    }
+    .affegg-promotion .affegg-discount {
+        font-size: 12px !important;
+    }
+    .egg .yet-products {
+        font-size: 12px !important;   
+    }
+    
+    /*#posts-list .post .has-overblocks .overblock {
+        width: 100% !important;
+        text-align: center !important;
+    }*/
+}
+
+@media all and (max-width: 380px) {
+	.author-description {
+		float: left;
+		width: 100%;
+	}
+	
+	//Affiliate Egg
+	.affegg-promotion {
+	    height: 16px !important;
+	}
+    .affegg-promotion .affegg-discount {
+        font-size: 8px !important;
+        padding: 0 3px !important;
+    }
+}
