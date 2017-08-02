@@ -3,7 +3,7 @@
  * The template for displaying an archive page for Categories.
  *
  * @package Quark
- * @since Quark 1.0
+ * @since Quark 1.2
  */
 
 get_header();
