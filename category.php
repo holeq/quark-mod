@@ -26,6 +26,7 @@ get_header();
 		}
 		
 		$header_outputed = false;
+		//Тест.
 		
 		$current_cat_postsann = of_get_option('bo_cat_template_'.$current_cat_template_id.'_postsann', '1');
 		$current_cat_postsann_h = of_get_option('bo_cat_template_'.$current_cat_template_id.'_postsann_h', '');
